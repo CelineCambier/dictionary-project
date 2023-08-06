@@ -12,7 +12,24 @@ export default function App() {
         </header>
         <Dictionary defaultKeyword="wine" />
         <footer className="App-footer">
-          <small>Coded by Celine Cambier</small>
+          <small>
+            Coded by <strong>Celine Cambier</strong>, is{" "}
+            <a
+              href="https://github.com/CelineCambier/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-source
+            </a>{" "}
+            and hosted on{" "}
+            <a
+              href="https://spontaneous-sprite-9b35cd.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
